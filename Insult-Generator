@@ -86,8 +86,8 @@ for i in list:
     else:
         print("nope.")
         
-w1 = l1[random.randint(1,50)]
-w2 = l2[random.randint(1,50)]
-w3 = l3[random.randint(1,50)]
+w1 = l1[random.randint(0,49)]
+w2 = l2[random.randint(0,49)]
+w3 = l3[random.randint(0,49)]
 
 print('Thou ' + w1 +' '+ w2 +' '+ w3 + '!')
