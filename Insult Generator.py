@@ -6,7 +6,9 @@
 import re
 import random
 
-string ='''artless             base-court          apple-john
+#Raw string that contains the words
+string ='''
+artless             base-court          apple-john
 bawdy               bat-fowling         baggage
 beslubbering        beef-witted         barnacle
 bootless            beetle-headed       bladder
@@ -57,16 +59,24 @@ wayward             toad-spotted        vassal
 weedy               unchin-snouted      whey-face
 yeasty              weather-bitten      wagtail'''
 
+#Removes the spaces inbetween the words and separates them with a newline
 string2 = re.sub(r"\s+", "\n", string)
+
+#Splits the string where the newline character is located
 list = string2.split("\n")
+
+#Lists used to makes the induvidual parts of the insult
 l1 = []
 l2 = []
 l3 = []
+
+#Variables used to off set each index, so the right word column matches the list order
 e = 0
 n1 = 0
 n2 = 0
 n3 = 0
 
+#For loop that appends each word/element according to the list index
 for i in list:
     if e == 0 + n1:
         l1.append(list[e])
@@ -84,10 +94,12 @@ for i in list:
         n3 = n3 + 3
         
     else:
-        print("nope.")
+        print("Error.")
         
+#Variables that hold the randomly selected word from each list
 w1 = l1[random.randint(0,49)]
 w2 = l2[random.randint(0,49)]
 w3 = l3[random.randint(0,49)]
 
+#Prints the insult to system out
 print('Thou ' + w1 +' '+ w2 +' '+ w3 + '!')
