@@ -2,7 +2,7 @@
 #a Shakespeareanesque insult. This program is great to use for Vicious Mockery in Dungeons and Dragons!
 
 ##raw string can be found at http://www.pangloss.com/seidel/shake_rule.html##
-import string
+
 import re
 import random
 
