@@ -7,8 +7,7 @@ import re
 import random
 
 #Raw string that contains the words
-string ='''
-artless             base-court          apple-john
+string ='''artless             base-court          apple-john
 bawdy               bat-fowling         baggage
 beslubbering        beef-witted         barnacle
 bootless            beetle-headed       bladder
