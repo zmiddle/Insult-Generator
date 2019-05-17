@@ -1,5 +1,5 @@
 #Takes the columns of words as one string and forms them into separate lists that will be used to randomly generate
-#a Shakespeareanesque insult. This program is great to use for Vicious Mockery in Dungeons and Dragons!
+#a Shakespearean insult. This program is great to use for Vicious Mockery in Dungeons and Dragons!
 
 ##raw string can be found at http://www.pangloss.com/seidel/shake_rule.html##
 
