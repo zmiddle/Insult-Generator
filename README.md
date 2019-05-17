@@ -4,7 +4,7 @@ Takes string of words and randomly generates a Shakespearean insult. This progra
 ## Insult-Generator-TTS
 Does the same as the Insult-Generator.py and also uses the pyttsx3 module to say the insult.
 
-## What I learned:
+## What I learned
 * String malipulation without the use of the string library.
 * Creating multiple lists from one master string, and sorting them using different indexes.
 * Appending lists in an if tree for each element in a list.
