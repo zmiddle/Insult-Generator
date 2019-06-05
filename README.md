@@ -1,6 +1,8 @@
 ## Insult-Generator
 Takes a string of words and randomly generates a Shakespearean insult. This program is excellent to use for Vicious Mockery in Dungeons and Dragons!
 
+![ScreenShot](https://github.com/zmiddle/Insult-Generator/blob/master/Insult%20Output.JPG)
+
 ### Insult-Generator-TTS
 Does the same as the Insult-Generator.py and also uses the pyttsx3 module to say the insult.
 
