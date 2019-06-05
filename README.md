@@ -1,5 +1,5 @@
 ## Insult-Generator
-Takes a string of words and randomly generates a Shakespearean insult. This program is excellent to use for [Vicious Mockery](https://www.dndbeyond.com/spells/vicious-mockery) in Dungeons and Dragons!
+Takes a string of words and randomly generates a Shakespearean insult. This program is excellent to use for [Vicious Mockery](https://www.dndbeyond.com/spells/vicious-mockery) in [Dungeons and Dragons](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons)!
 
 ![ScreenShot](https://github.com/zmiddle/Insult-Generator/blob/master/Insult%20Output.JPG)
 
